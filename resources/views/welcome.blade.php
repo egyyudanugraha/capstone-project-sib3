@@ -1,5 +1,5 @@
 <!doctype html >
-<html data-theme="coffee">
+<html data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,16 +31,23 @@
         </div>
       </div>
       <div class="divider text-2xl font-semibold">Features</div>
-      <div class="p-3 grid gap-2">
+      <div class="p-3 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
         <div class="card w-full bg-base-100 shadow-xl image-full">
-          <figure><img src="https://source.unsplash.com/random/400x225/?paddy" alt="Shoes" /></figure>
+          <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
           </div>
         </div>
         <div class="card w-full bg-base-100 shadow-xl image-full">
-          <figure><img src="https://source.unsplash.com/random/400x225/?paddy" alt="Shoes" /></figure>
+          <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card w-full bg-base-100 shadow-xl image-full">
+          <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -48,7 +55,7 @@
         </div>
       </div>
       <div class="divider text-2xl font-semibold">About Us</div>
-      <div class="p-3 grid gap-2">
+      <div class="p-3 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
         <div class="card bg-base-100 shadow-xl">
           <div class="avatar justify-center px-10 pt-10">
             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
