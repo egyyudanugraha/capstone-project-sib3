@@ -154,7 +154,7 @@
           </div>
         </div>
       </footer>
-      <button id="btn-themes" class="btn btn-square border-none p-3 bg-primary fixed z-10 bottom-6 right-6">
+      <button id="btn-themes" class="btn btn-square border-none p-3 bg-primary fixed z-[999] bottom-6 right-6">
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 452.025 452.025" stroke="currentColor" xml:space="preserve">
                 <g>
