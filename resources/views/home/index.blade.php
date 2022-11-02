@@ -40,13 +40,13 @@
     <div class="card bg-base-100 shadow-xl">
       <div class="avatar justify-center px-10 pt-10">
         <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img src="{{ url('/images/yuda.jpg') }}" />
+          <img src="{{ url('/images/yuda.webp') }}" />
         </div>
       </div>
       <div class="card-body items-center text-center">
         <h2 class="card-title">Egy Yuda Nugraha</h2>
-        <p>I'm a <span class="font-semibold">Front-End Developer</span> in this project</p>
-        <div class="card-actions">
+        <p>Front-End Developer</p>
+        <div class="card-actions justify-center">
           <a href="https://github.com/egyyudanugraha/" target="_blank" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="mr-2" viewBox="0 0 24 24">
                 <path
@@ -65,13 +65,13 @@
     <div class="card bg-base-100 shadow-xl">
       <div class="avatar justify-center px-10 pt-10">
         <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img src="{{ url('/images/dedy.jpeg') }}" />
+          <img src="{{ url('/images/dedy.webp') }}" />
         </div>
       </div>
       <div class="card-body items-center text-center">
         <h2 class="card-title">Dedy Yehezkiel Marbun</h2>
-        <p>I'm a <span class="font-semibold">ML Engineer</span> in this project</p>
-        <div class="card-actions">
+        <p>Machine Learning Engineer</p>
+        <div class="card-actions justify-center">
           <a href="https://github.com/DDYYMMM" target="_blank" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="mr-2" viewBox="0 0 24 24">
                 <path
@@ -90,13 +90,13 @@
     <div class="card bg-base-100 shadow-xl">
       <div class="avatar justify-center px-10 pt-10">
         <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img src="{{ url('/images/yaspin.jpeg') }}" />
+          <img src="{{ url('/images/yaspin.webp') }}" />
         </div>
       </div>
       <div class="card-body items-center text-center">
         <h2 class="card-title">Yaspin Andika Muhamad Nur Cholis</h2>
-        <p>I'm a <span class="font-semibold">ML Engineer</span> in this project</p>
-        <div class="card-actions">
+        <p>Machine Learning Engineer</p>
+        <div class="card-actions justify-center">
           <a href="https://github.com/yayaspinnn" target="_blank" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="mr-2" viewBox="0 0 24 24">
                 <path

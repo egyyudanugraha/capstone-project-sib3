@@ -1,11 +1,14 @@
 @extends('../layouts/base')
 @section('content')
 <div class="mx-4 my-2">
-  <div class="card w-full bg-base-100 shadow-xl">
-    <figure><img id="preview" /></figure>
-    <div class="card-body">
+  <div class="card md:card-side w-full bg-base-100 shadow-xl">
+    <figure><img id="preview" class="max-h-screen w-full object-cover"/></figure>
+    <div class="card-body justify-between">
       <div id="result" class="hidden my-2">
-        <h2 class="card-title">Padi sehat!</h2>
+        <h2 class="card-title">
+          Healthly!
+          <div class="badge badge-secondary badge-outline">90%</div>
+        </h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sit quisquam itaque tempora necessitatibus incidunt dolores fugit ullam quasi quam?</p>
       </div>
       <label class="btn btn-primary" for="image">Scan</label>
