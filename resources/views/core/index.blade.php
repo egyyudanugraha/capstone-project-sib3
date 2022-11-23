@@ -4,8 +4,8 @@
   <div class="card md:card-side w-full bg-base-100 shadow-xl">
     <figure><img id="preview" class="max-h-screen w-full object-cover"/></figure>
     <div class="card-body justify-between">
-      <div class="radial-progress mx-auto" style="--value:70;">70%</div>
-      <progress class="progress hidden progress-primary w-full" value="40" max="100"></progress>
+      <div class="radial-progress mx-auto" style="--value:0;">0%</div>
+      <progress class="progress hidden progress-primary w-full" value="50" max="100"></progress>
       <div id="result" class="my-2 hidden">
       </div>
       <label class="btn btn-primary hidden" for="image">Scan</label>
