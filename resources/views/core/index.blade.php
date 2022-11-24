@@ -2,7 +2,7 @@
 @section('content')
 <div class="mx-4 my-2">
   <div class="card md:card-side w-full bg-base-100 shadow-xl">
-    <figure class="max-w-lg"><img id="preview" class="max-h-screen w-full object-cover"/></figure>
+    <figure class="md:max-w-lg"><img id="preview" class="max-h-screen w-full object-cover"/></figure>
     <div class="card-body justify-between">
       <div class="radial-progress mx-auto" style="--value:0;">0%</div>
       <progress class="progress hidden progress-primary w-full" value="50" max="100"></progress>
@@ -80,7 +80,7 @@
 
       setTimeout(() => {
         predictImage()
-      }, 100)
+      }, 200)
     }
   })
 
