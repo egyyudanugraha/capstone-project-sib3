@@ -1,6 +1,6 @@
 @extends('../layouts/base')
 @section('content')
-  <div class="hero min-h-screen" style="background-image: url(https://source.unsplash.com/random/?paddy);">
+  <div class="hero min-h-screen" style="background-image: url('/images/hero.webp');">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
@@ -14,21 +14,21 @@
   <div class="divider text-2xl font-semibold">Features</div>
   <div class="p-3 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
     <div class="card w-full bg-base-100 shadow-xl image-full">
-      <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Simple" /></figure>
+      <figure><img src="{{ url('/images/features.webp') }}" alt="Simple" /></figure>
       <div class="card-body">
         <h2 class="card-title">Simple!</h2>
         <p>Hanya dengan sebuah foto, HERIVES dapat mengetahui penyakit pada padi.</p>
       </div>
     </div>
     <div class="card w-full bg-base-100 shadow-xl image-full">
-      <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Mudah dan cepat" /></figure>
+      <figure><img src="{{ url('/images/features.webp') }}" alt="Mudah dan cepat" /></figure>
       <div class="card-body">
         <h2 class="card-title">Mudah & cepat!</h2>
         <p>HERIVES dapat diakses dimanapun kapanpun dengan mudah dan cepat terutama di perangkat mobile</p>
       </div>
     </div>
     <div class="card w-full bg-base-100 shadow-xl image-full">
-      <figure><img src="https://source.unsplash.com/random/1000x225/?paddy" alt="Solutive" /></figure>
+      <figure><img src="{{ url('/images/features.webp') }}" alt="Solutive" /></figure>
       <div class="card-body">
         <h2 class="card-title">Solutive</h2>
         <p>HERIVES akan memberikan solusi pada padi yang memiliki penyakit</p>
