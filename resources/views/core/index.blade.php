@@ -5,7 +5,14 @@
     <figure class="md:max-w-lg"><img id="preview" class="max-h-screen w-full object-cover"/></figure>
     <div class="card-body justify-between">
       <div class="radial-progress mx-auto" style="--value:0;">0%</div>
+      <p class="font-bold info-progress hidden">Scanning...</p>
       <progress class="progress hidden progress-primary w-full" value="50" max="100"></progress>
+      <div class="alert shadow-md info-progress hidden">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <span>If this progres stuck, please reload the page.</span>
+        </div>
+      </div>
       <div id="result" class="my-2 hidden">
       </div>
       <label class="btn btn-primary hidden" for="image">Scan</label>
@@ -23,6 +30,7 @@
   const previewImage = document.querySelector('#preview')
   const resultContent = document.querySelector('#result')
   const progressElement = document.querySelector('progress')
+  const infoProgress = document.querySelectorAll('.info-progress')
   const btnLabel = document.querySelector('label[for=image]')
 
   // Initial model
@@ -64,6 +72,13 @@
     renderResult(result)
   }
 
+  const displayScanning = () => {
+    progressElement.classList.toggle('hidden')
+    infoProgress.forEach(elem => {
+      elem.classList.toggle('hidden')
+    })
+  }
+
   inputFile.addEventListener('change', (e) => {
     if(e.target.files.length > 0){
       const imageReader = new FileReader();
@@ -74,7 +89,7 @@
         previewImage.src = dataURL;
       }
 
-      progressElement.classList.remove('hidden')
+      displayScanning()
       btnLabel.classList.add('hidden')
       resultContent.classList.add('hidden')
 
@@ -87,7 +102,7 @@
   const renderResult = ({ probability, className }) => {
     progressElement.setAttribute('value', '100')
     setTimeout(() => {
-      progressElement.classList.add('hidden')
+      displayScanning()
       resultContent.innerHTML = `
       <h2 class="card-title">
         ${className.nama}
