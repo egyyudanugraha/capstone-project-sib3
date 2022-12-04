@@ -37,7 +37,8 @@
   let model;
   const init = async () => {
     model = await tf.loadLayersModel(`{{ asset('model/model.json') }}`,
-    {onProgress: progres => loadingModel(progres)})
+    {onProgress: progres => loadingModel(progres)}
+    )
   }
 
   // Loading model
