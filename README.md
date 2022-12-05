@@ -1,66 +1,176 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div id="top"></div>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://herives.portal-lppm.com">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## About Laravel
+<h3 align="center">HERIVES</h3>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  <p align="center">
+    Identify your rice leaves with HERIVES
+    <br />
+    <a href="https://herives.portal-lppm.com">View Deployed App</a>
+    ·
+    <a href="https://github.com/egyyudanugraha/capstone-project-sib3/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/egyyudanugraha/capstone-project-sib3/issues">Request Feature</a>
+  </p>
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<!-- ABOUT THE PROJECT -->
+## About Apptivity
 
-## Laravel Sponsors
+[![frame-chrome-mac-light-6.png](https://i.postimg.cc/vmqzvgt0/frame-chrome-mac-light-6.png)](https://herives.portal-lppm.com)
+[![frame-chrome-mac-light-7.png](https://i.postimg.cc/Xv7LFcdZ/frame-chrome-mac-light-7.png)](https://herives.portal-lppm.com)
+[![frame-chrome-mac-light-8.png](https://i.postimg.cc/HkmBWCL9/frame-chrome-mac-light-8.png)](https://herives.portal-lppm.com)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+Healthy Rice Leaves (HERIVES) adalah web app yang dapat digunakan untuk mendeteksi penyakit pada tumbuhan padi hanya dengan sebuah foto. HERIVES dapat digunakan melalui smartphone sehingga dapat dijangkau semua pengguna. Ayo cegah penyakit tanaman padi sejak dini. Padi sehat, petani senang, masyarakat sejahtera!
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Project HERIVES dibangun untuk memenuhi tugas akhir atau Capstone Project pada program Studi Independen Bersertifikat - Batch 3.
 
-## Contributing
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Built With
 
-## Security Vulnerabilities
+* [Laravel](https://laravel.com/)
+* [Tailwind](https://tailwindcss.com/)
+* [Tensorflow Js](https://www.tensorflow.org/js)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#### Dataset & API article
+* [Leaf Rice Disease](https://www.kaggle.com/datasets/tedisetiady/leaf-rice-disease-indonesia) 
+* [GNews API](https://gnews.io/)
 
-## License
+#### Model
+[HERIVES Model](https://colab.research.google.com/drive/1ppE-RoglsbiT3o9TPFkcuUueN7PC4mMz?usp=sharing)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+How to install local herives on your laptop? let's follow the instructions
+
+### Prerequisites
+* PHP 8 or higher
+
+
+### Installation
+
+1. Clone this repository (main branch)
+   ```sh
+   git clone https://github.com/egyyudanugraha/capstone-project-sib3.git
+   ```
+2. Install composer
+    ```sh
+    composer install
+    ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Copy file `.env.example`
+   ```sh
+   cp .env.example .env 
+   ```
+5. Generate Key
+   ```sh
+   php artisan key:generate
+   ```
+6. Run the server!
+   ```sh
+   php artisan serve
+   ```
+
+7. On another terminal, please run here to build assets
+   ```sh
+   npm run dev
+   ```
+   Yeay! Server running on [localhost](http://127.0.0.1:8000)
+   
+   #### Optional
+   To build this project for production, run command
+   ```sh
+   npm run build
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+### Model Machine Learning
+- [+] Search dataset
+- [+] Make new project on Google Colaboratory
+- [+] Download dataset from kaggle to Colab
+- [+] Cleaning data
+- [+] Make architecture model
+- [+] Training model and evaluation
+- [+] Deploy model
+
+### Front-End
+- [+] Install laravel with tailwind
+- [+] Install libarary DaisyUI
+- [+] Init Git and make repository on GitHub
+- [+] Create landing page
+- [+] Create scanning page
+- [+] Create article page
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+- [Egy Yuda](https://www.linkedin.com/in/egyyudanugraha/)
+- [Dedy Yehezkiel](https://www.linkedin.com/in/dedy-yehezkiel-147762249/)
+- [Yaspin Andika](https://www.linkedin.com/in/yaspin-andika/)
+- [Ahdian Mirza](https://www.linkedin.com/in/ahdianmirza/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+* [Laravel](https://laravel.com/)
+* [Tensorflow Js](https://www.tensorflow.org/js)
+* [Tailwind](https://tailwindcss.com/)
+* [DaisyUI](https://daisyui.com/)
+* [MDN Web Docs](https://developer.mozilla.org/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Youtube](https://www.youtube.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
