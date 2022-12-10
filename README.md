@@ -48,7 +48,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About Apptivity
+## About HERIVES
 
 [![frame-chrome-mac-light-6.png](https://i.postimg.cc/vmqzvgt0/frame-chrome-mac-light-6.png)](https://herives.portal-lppm.com)
 [![frame-chrome-mac-light-7.png](https://i.postimg.cc/Xv7LFcdZ/frame-chrome-mac-light-7.png)](https://herives.portal-lppm.com)
